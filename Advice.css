@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    font-family: Arial, sans-serif;
+
+    /* ਸਕ੍ਰੀਨ ਦੇ ਬਿਲਕੁਲ ਵਿਚਕਾਰ ਲਿਆਉਣ ਲਈ Flexbox */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* ਪੂਰੀ ਸਕ੍ਰੀਨ ਦੀ ਉਚਾਈ ਲਓ */
+    min-height: 100vh;
+}
+
+div {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff7f50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #e0693c;
+}
