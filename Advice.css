@@ -4,13 +4,12 @@ body {
     background-color: bisque;
     font-family: Arial, sans-serif;
 
-    /* ਸਕ੍ਰੀਨ ਦੇ ਬਿਲਕੁਲ ਵਿਚਕਾਰ ਲਿਆਉਣ ਲਈ Flexbox */
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    /* ਪੂਰੀ ਸਕ੍ਰੀਨ ਦੀ ਉਚਾਈ ਲਓ */
     min-height: 100vh;
 }
 
